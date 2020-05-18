@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Studiolovelock</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Playfair+Display:400,500,700,800&display=swap" rel="stylesheet">
+    
+    <style type="text/css">
+        :root{
+            --open_sans: 'open sans', sans-serif;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-size: 14px;
+            background: #FFFEF3;
+        }
+        img{
+            width: 100%;
+        }
+        /*encabezado*/
+        nav{
+            display: flex;
+            flex-direction:row;
+            justify-content: space-between;
+            font-family: var(--open_sans);
+            font-size: 10px;
+            padding: 1em 58em;
+            position:relative;
+            background: aqua;
+        }
+        nav .menu a:first-child{
+            border-bottom: 7px solid black;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            padding: 1em;
+        }
+        .menu{
+            display: flex;
+            justify-content: center;
+        }
+        
+        .iconos{
+            display: flex;
+            flex-direction: row;
+            display: flex-end;
+            padding: 1em  80em;
+            position: fixed;
+            
+            
+        }
+        /*cuerpo*/
+        .contenedor{
+            width: 100%;
+            display:grid;
+            
+        }
+        h1{
+            font-family: var(--open_sans);
+            font-size: 2.5em;
+            padding-bottom: 1em;
+        }
+        .texto1{
+            display: flex;
+            font-family: var(--open_sans);
+            flex-direction: column;
+            text-align: center;
+            margin-left: 38em;
+            margin-right: 38em;
+            padding-top: 5em;   
+        }
+        img{
+            width: 35%;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-top: 3em;
+            margin-left: 9em;
+            
+        }
+        h2{
+            font-family: var(--open_sans);
+            font-size: 2.5em;
+            padding-top: 3em;
+            padding-bottom: 1em;
+        }
+        .texto2{
+            display: flex;
+            font-family: var(--open_sans);
+            flex-direction: column;
+            text-align: center;
+            margin-left: 38em;
+            margin-right: 38em;
+            padding-top: 5em;   
+        }
+        .areas{
+            font-family: var(--open_sans);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: left;
+            padding: 5em 18em;
+            
+        }
+        .areas p{
+            font-size: 9px;
+            padding-top: 9em;
+            margin-left: -10em;
+            padding-top: 8em;
+            padding-right: 17em;
+            
+            
+        }
+        .entradilla{
+            font-size: 14px;
+            border-bottom: 1px solid gray;
+            border-top: 1px solid gray;
+        }
+        h3{
+            font-family: var(--open_sans);
+            font-size: 2.5em;
+            padding-bottom: 1em;
+        }
+        .texto3{
+            display: flex;
+            font-family: var(--open_sans);
+            flex-direction: column;
+            text-align: center;
+            margin-left: 38em;
+            margin-right: 38em;
+            padding-top: 5em;   
+        }
+        h4{
+            font-family: var(--open_sans);
+            font-size: 2.5em;
+            padding-bottom: 1em;
+        }
+        .texto4{
+            display: flex;
+            font-family: var(--open_sans);
+            flex-direction: column;
+            text-align: center;
+            margin-left: 38em;
+            margin-right: 38em;
+            padding-top: 5em;   
+        }
+        .subtexto{
+            font-family: var(--open_sans);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: left;
+            padding: 5em 18em;
+            
+        }
+        .subtexto h5,h6,h7,h8{
+            font-family: var(--open_sans);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: left;
+            padding: 5em 18em;
+            
+        }
+        .subtexto p{
+            font-size: 9px;
+            padding-top: 9em;
+            margin-left: -10em;
+            padding-top: 8em;
+            padding-right: 17em;
+        }
+        footer .pie{
+            color: black;
+            border-top: 5px solid black;  
+        }
+        footer p{
+            color: lightgrey;
+            font-size: 10px;
+            margin-left: 6em;
+            margin-right: 6em;
+            text-align: center;
+        }
+        footer{
+            font-family: var(--open_sans);
+            line-height: 24px;
+            padding: 10em 15em 5em 15em;
+        }
+          
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+        <div class="menu">
+            <a href="#">WORK</a>
+            <a href="#">PROFILE</a>
+            <a href="#">JOURNAL</a>
+            <a href="#">SAY HELLO</a>
+        </div> 
+        <div class="iconos">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+            <a href="#"><i class="fab fa-instagram-square"></i></a>
+        </div>    
+        </nav>
+    </header>
+    <main>
+        <div class="contenedor">
+            <div class="texto1">
+                <h1>Studio who?</h1>
+                <p>Studio Lovelock is a vibrant collective of designers, animators and developers driven by a passion for exploration, problem solving and craft. We pride ourselves on being down to earth souls, who always strive to go above and beyond.</p>
+            </div>
+            <div class="img">
+                <img src="img/1.png"><img src="img/2.png">
+            </div>
+            <div class="texto2">
+                <h2>Services</h2>
+                <p>We are a multi-discipline design studio with an extensive network of the finest talent, allowing us to build the perfect team to respond to your brief. Primarily we work across three areas:</p>
+            </div>
+                <div class="areas">
+                        <div class="entradilla">Brand Strategy & Identity</div>
+                        <p>We pinpoint what makes you unique to create everything your brand needs to stand out and thrive.</p>
+                        <div class="entradilla">Website Design</div>
+                        <p>Working with the latest technology we design and build pixel perfect, user-centric websites.</p>
+                        <div class="entradilla">Motion Graphics & Animation</div>
+                        <p>We turn product demos and information videos into imaginative and shareable assets.</p>
+                </div>
+            <div class="texto3">
+                <h3>Approach</h3>
+                <p>Young at heart but with a galaxy of experience under our belts, we’ve successfully created for global brands and boutique start-ups. Our approach is underpinned by three key principles:</p>
+             </div>
+             <div class="texto4">
+                <h4>Process</h4>
+                <p>Creativity can be enigmatic, making it all the more important to stay focused. A clear process makes for efficient use of time, and ensures that the end product delivers value.</p>
+             </div>
+                  
+                    <div class="subtexto">1</div>
+                <h5>Define</h5>
+                <p>We always begin by looking closely at the problem that needs solving. Tapping into your knowledge we establish clear and measurable objectives.</p>
+            </div>
+            <div>
+                <div class="subtexto">2</div>
+                <h6>Explore</h6>
+                <p>With clear goals set we explore lots of ideas in an organic and playful way. This is when unexpected things happen and how we find a fresh angle.</p>
+            </div>
+            <div>
+                <div class="subtexto">3</div>
+                <h7>Refine</h7>
+                <p>Through critique and discussion we evaluate the ideas until one starts to stand out. It is then refined and rigorously tested across all contexts.</p>
+            </div>
+            <div>
+                <div class="subtexto">4</div>
+                <h8>Deliver</h8>
+                <p>Delivering on time and on budget is as important to us as every lovely pixel we place. That means going to every length to provide what you need, when you need it.</p>
+            </div>
+            
+        
+        
+    </main>
+    <footer>
+        <div class="contenedor_pie">
+            <p class="pie">Hello@studiolovelock.com | 020 7635 8757 | Ground Floor Unit B Emperor House, Dragonfly Place, Brockley, London SE4 2FL</p>
+            <p>© 2014 Studio Lovelock. All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
